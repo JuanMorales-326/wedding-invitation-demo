@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma & James Wedding</title>
+    <meta name="robots" content="noindex, nofollow">
+    
+    <link rel="icon" type="image/x-icon" href="IMG/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <button id="btn-calendar" class="floating-btn"><i class="fa-regular fa-calendar-check"></i> Save the Date</button>
+
+    <div id="calendar-modal" class="modal-overlay hidden">
+        <div class="calendar-modal-content">
+            <button id="close-calendar" class="close-modal-btn"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="modal-title">Add to my calendar</h3>
+            <p style="margin-bottom: 20px; font-size: 0.9rem; color: #666;">Select your platform</p>
+            
+            <div class="calendar-options">
+                <button id="btn-google-cal" class="cal-btn">
+                    <i class="fa-brands fa-google" style="color: #DB4437; font-size: 1.5rem;"></i> 
+                    <span>Google Calendar<br><small>(Android / Web)</small></span>
+                </button>
+                
+                <button id="btn-apple-cal" class="cal-btn">
+                    <i class="fa-brands fa-apple" style="color: #000; font-size: 1.5rem;"></i> 
+                    <span>Apple Calendar<br><small>(iPhone / iOS)</small></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="main-names" id="couple-names">Loading...</h1>
+            <p class="subtitle">"Together is a beautiful place to be."</p>
+            <p class="subtitle">October 10, 2027</p>
+            
+            <div class="countdown-container">
+                <div class="countdown-box"><span id="days">00</span><p>DAYS</p></div>
+                <div class="countdown-box"><span id="hours">00</span><p>HRS</p></div>
+                <div class="countdown-box"><span id="minutes">00</span><p>MIN</p></div>
+                <div class="countdown-box"><span id="seconds">00</span><p>SEC</p></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="parents-section container">
+        <h2 class="section-title">With the blessing of our parents</h2>
+        <div class="parents-grid" id="parents-container">
+        </div>
+    </section>
+
+    <section class="details-section container">
+        <h2 class="section-title">When & Where</h2>
+        <div class="details-wrapper">
+            <div class="detail-card">
+                <div class="icon-ring"><i class="fa-regular fa-calendar-days"></i></div>
+                <h3>The Big Day</h3>
+                <p class="big-text" id="wedding-date"></p>
+                <div class="divider-line"></div>
+                <p class="sub-text">Civil Ceremony: 6:00 PM</p>
+            </div>
+            
+            <div class="detail-card">
+                <div class="icon-ring"><i class="fa-solid fa-location-dot"></i></div>
+                <h3>The Celebration</h3>
+                <p class="big-text" id="wedding-location"></p>
+                <div class="divider-line"></div>
+                <div class="map-buttons-container">
+                    <a id="google-map" href="#" target="_blank" class="map-btn">
+                        <span class="btn-text">Google Maps</span>
+                        <i class="fa-brands fa-google icon-hover"></i>
+                    </a>
+                    <a id="apple-map" href="#" target="_blank" class="map-btn">
+                        <span class="btn-text">Apple Maps</span>
+                        <i class="fa-brands fa-apple icon-hover"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="itinerary-section container">
+        <h2 class="section-title">Itinerary</h2>
+        <ul class="timeline" id="itinerary-list">
+        </ul>
+    </section>
+
+    <section class="gallery-section container">
+        <h2 class="section-title-sm">Our Moments</h2>
+        <div class="divider-line"></div>
+        <p class="registry-text">Every picture tells a part of our story.</p>
+    
+        <div class="galeria-carrusel" id="carrusel">
+            <img src="IMG/1.jpeg" alt="Emma and James">
+            <img src="IMG/2.jpeg" alt="Emma and James">
+            <img src="IMG/3.jpeg" alt="Emma and James">
+            <img src="IMG/4.jpeg" alt="Emma and James">
+            <img src="IMG/5.jpeg" alt="Emma and James">
+            <img src="IMG/6.jpeg" alt="Emma and James">
+            <img src="IMG/7.jpeg" alt="Emma and James">
+            <img src="IMG/8.jpeg" alt="Emma and James">
+            <img src="IMG/9.jpeg" alt="Emma and James">
+            <img src="IMG/10.jpeg" alt="Emma and James">
+        </div>
+    </section>
+
+    <section class="rules-section container">
+        <h2 class="section-title">Event Details</h2>
+        <div class="rules-grid-premium">
+            
+            <div class="rule-card-luxury dress-code-card">
+                <div class="luxury-icon"><i class="fa-solid fa-gem"></i></div>
+                <h3>Dress Code</h3>
+                <p class="main-rule" id="dress-code"></p>
+                
+                <div class="dress-examples">
+                    <div class="example-wrapper">
+                        <img src="IMG/formalmujeres.jpeg" alt="Ladies Example" class="dress-img">
+                        <div class="example-label">Ladies</div>
+                    </div>
+                    <div class="example-wrapper">
+                        <img src="IMG/formalhombres.jpg" alt="Gentlemen Example" class="dress-img">
+                        <div class="example-label">Gentlemen</div>
+                    </div>
+                </div>
+                
+                <div class="warning-box">
+                    <i class="fa-solid fa-triangle-exclamation warning-icon"></i>
+                    <p id="dress-warning"></p>
+                </div>
+            </div>
+
+            <div class="rule-card-luxury colors-card">
+                <div class="luxury-icon"><i class="fa-solid fa-ban"></i></div>
+                <h3>Forbidden Colors</h3>
+                <p class="main-rule"><strong>Attention!</strong> Out of respect for the bride, wearing White or Burgundy is strictly prohibited. These colors are reserved.</p>
+                
+                <div class="swatches-row">
+                    <div class="swatch-item">
+                        <div class="color-circle bg-white"></div>
+                        <span>White</span>
+                    </div>
+                    <div class="swatch-item">
+                        <div class="color-circle bg-burgundy"></div>
+                        <span>Burgundy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rule-card-luxury adults-card">
+                <div class="luxury-icon"><i class="fa-solid fa-wine-glass"></i></div>
+                <h3>Adults Only Reception</h3>
+                <div class="adults-content">
+                    <p class="main-rule" id="restrictions"></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="registry-section container">
+        <div class="registry-card">
+            <div class="luxury-icon"><i class="fa-solid fa-gift"></i></div>
+            <h2 class="section-title-sm">Gift Registry</h2>
+            <p class="registry-text">Your presence is our greatest gift, but if you wish to bless us with a present, you can do so through our registry.</p>
+            
+            <a id="registry-link" href="" target="_blank" class="liverpool-btn">
+                <img src="IMG/liverpool.png" alt="Store Logo" class="liverpool-icon">
+                <span class="liverpool-text">View Registry</span>
+            </a>
+            <p class="registry-number">Event No.: <strong>12345678</strong></p>
+        </div>
+    </section>
+
+    <section class="rsvp-section container">
+        <div class="rsvp-card-luxury">
+            <div class="luxury-icon"><i class="fa-regular fa-envelope"></i></div>
+            <h2 class="section-title-sm">Will you join us?</h2>
+            
+            <div id="guest-passes-container" class="passes-badge hidden">
+                <i class="fa-solid fa-ticket"></i>
+                <span id="guest-passes-text">Reserved passes: </span>
+            </div>
+
+            <form id="rsvp-form" class="rsvp-form hidden">
+                <p class="rsvp-text">Please enter the <strong>First and Last Name</strong> of each attendee.</p>
+                                
+                <div id="pass-instructions" class="pass-instructions hidden">
+                     <i class="fa-solid fa-circle-info"></i>
+                     <span>If someone cannot attend, click the <strong>X</strong> to release the pass.</span>
+                </div>
+                
+                <div id="dynamic-guests-container"></div>
+                
+                <div class="input-group">
+                    <input type="tel" id="telefono" name="telefono" placeholder="WhatsApp Number (Primary Guest)" required pattern="[0-9]{10}">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" id="submit-btn" class="btn-rsvp-gold">
+                        <i class="fa-solid fa-paper-plane"></i> SEND CONFIRMATION
+                    </button>
+                    
+                    <button type="button" id="decline-btn" class="btn-rsvp-silver">
+                        <i class="fa-solid fa-heart-crack"></i> I CANNOT ATTEND
+                    </button>
+                </div>
+            </form>
+
+            <div id="success-message" class="success-box hidden">
+                <i class="fa-solid fa-circle-check"></i>
+                <h3>Confirmation Successful!</h3>
+                <p id="success-text">Thank you for confirming.</p>
+            </div>
+
+            <div id="error-message" class="error-box hidden">
+                <p>To confirm your attendance, please use the personalized link sent by Emma and James.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="premium-footer">
+        <div class="footer-content">
+            <h2 class="footer-names">Emma & James</h2>
+            <p class="footer-thanks">Thank you for being part of our story</p>
+            <div class="footer-divider"></div>
+            <p class="footer-hashtag">#EmmaAndJamesWedding</p>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Designed with <i class="fa-solid fa-heart" style="color: #e74c3c;"></i> for the best day of our lives.</p>
+            
+            <div class="developer-credit">
+                <p>Interested in a premium web invitation or custom system?</p>
+                <a href="https://github.com/JuanMorales-326" target="_blank" class="dev-link">
+                    Developed by <strong>Juan Morales</strong> <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div> 
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
