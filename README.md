@@ -8,9 +8,9 @@ This project uses URL Query Parameters (`?pases=` and `&familia=`) to dynamicall
 
 If a user accesses the root URL without parameters, the system blocks the form to prevent unauthorized RSVPs. To test the functionality, please use the pre-configured demo links below:
 
-* 🔗 **View as a Regular Guest (No parameters):** [Live Demo - Blocked RSVP](https://tu-usuario.github.io/tu-repositorio/)
-* 🔗 **View as a Couple (2 Passes):** [Live Demo - 2 Passes](https://tu-usuario.github.io/tu-repositorio/?pases=2)
-* 🔗 **View as a Family (4 Passes, Morales Family):** [Live Demo - Family Mode](https://tu-usuario.github.io/tu-repositorio/?pases=4&familia=Morales)
+* 🔗 **View as a Regular Guest (No parameters):** [Live Demo - Blocked RSVP](https://juanmorales-326.github.io/wedding-invitation-demo/)
+* 🔗 **View as a Couple (2 Passes):** [Live Demo - 2 Passes](https://juanmorales-326.github.io/wedding-invitation-demo/?pases=2)
+* 🔗 **View as a Family (4 Passes, Morales Family):** [Live Demo - Family Mode](https://juanmorales-326.github.io/wedding-invitation-demo/?pases=4&family=Morales)
 
 > **⚠️ Note on Backend Simulation:** > For this public portfolio version, the original `fetch` requests to a live Google Sheets database have been replaced with a mocked asynchronous `Promise`. This allows you to test the full RSVP submission flow (including loading states, success animations, and `localStorage` caching) without interacting with a live backend endpoint.
 
