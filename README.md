@@ -4,7 +4,7 @@ This repository contains a fully responsive, front-end web application designed 
 
 ## 🚀 Live Demo & Interactive Features
 
-This project uses URL Query Parameters (`?pases=` and `&familia=`) to dynamically generate the RSVP form, personalizing the experience for each guest. 
+This project uses URL Query Parameters (`?pases=` and `&family=`) to dynamically generate the RSVP form, personalizing the experience for each guest. 
 
 If a user accesses the root URL without parameters, the system blocks the form to prevent unauthorized RSVPs. To test the functionality, please use the pre-configured demo links below:
 
