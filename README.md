@@ -34,7 +34,7 @@ If a user accesses the root URL without parameters, the system blocks the form t
 * **Infinite Scroll Carousel:** A custom, dependency-free image carousel optimized for touch devices.
 * **Responsive Design:** Fully optimized for desktop, tablet, and mobile viewing.
 
-* ⚖️ Copyright & License
+## ⚖️ Copyright & License
 © 2026 Juan Manuel Morales Gutiérrez. All Rights Reserved.
 This repository and its contents are shared for portfolio and demonstration purposes only. You may not copy, distribute, modify, or use this code for any personal or commercial projects without explicit written permission.
 
