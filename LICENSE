@@ -1,21 +1,19 @@
-MIT License
+COPYRIGHT AND TERMS OF USE
 
-Copyright (c) 2026 Juan Morales
+Copyright (c) 2026 Juan Manuel Morales Gutiérrez
+All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. PURPOSE OF THIS REPOSITORY
+This repository and its source code are made public strictly for portfolio demonstration, educational review, and professional evaluation by recruiters or potential clients. 
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. RESTRICTIONS
+This is NOT an open-source project. By accessing this repository, you agree to the following terms:
+- You may NOT copy, clone, reproduce, or distribute this code.
+- You may NOT modify or adapt this code for your own personal events (e.g., using it for your own wedding or party).
+- You may NOT use this code for any commercial purposes, sell it, or offer it as a service/template to third parties.
+- You may NOT remove, alter, or obscure this copyright notice.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. PERMISSIONS
+You are permitted to view the code, read the documentation, and interact with the live demo deployed on GitHub Pages for evaluation purposes only.
+
+If you are interested in using a similar system for your event or wish to inquire about custom development services, please contact the author directly.
